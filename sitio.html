@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Sityo - Asenso Ibabao</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<style>
+.col-md-4 .btn{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 15px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  border-radius: 10px;
+  color:transparent;
+}
+
+
+.col-md-4
+{
+  position: relative;
+}
+
+</style>
+
+<body onload="hideLoader()">
+
+<!--navbar-->
+  <nav id="navbar-example2" class="navbar px-3">
+  <a href="index.html" class="navbar-brand">
+  <img src="assets/img/logo.jpg">
+  <span> Asenso Ibabao </span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-id="false" role="button">
+            <i class="fa fa-bars text-dark"></i>
+ </button>
+
+  <ul class="nav nav-pills" id="desktop_menu" style="display:none;">
+    <li class="nav-item">
+      <a href="index.html" class="nav-link">About</a>
+    </li>
+    <li class="nav-item">
+      <a href="sitio.html" class="nav-link active-link">Sityo</a>
+    </li>
+     <li class="nav-item">
+    <a href="activities.html" class="nav-link">Activities</a></li>
+  <li class="nav-item">
+    <a href="officials.html" class="nav-link">Officials</a></li>
+  <li>
+  <div class="btn-group">
+  <span class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    More
+  </span>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a href="services.html" class="dropdown-item nav-link">Services</a></li>
+    <li><a href="login.html" class="dropdown-item nav-link">Login</a></li>
+  </ul>
+</div>
+ </li>
+  </ul>
+</nav>
+<!--end-->
+<!--mobile menu-->
+<div id="navbarMobile" style="display:none;">
+    <ul class="bg-light shadow-3 py-2 px-3">
+        <li><a href="index.html" class="nav-link m-0 p-2 text-center text-dark">About</a></li>
+        <li><a href="sitio.html" class="nav-link m-0 p-2 text-center active-mobile">Sityo</a></li>
+        <li><a href="activities.html" class="nav-link m-0 p-2 text-center text-dark">Activities</a></li>
+        <li><a href="officials.html" class="nav-link m-0 p-2 text-center text-dark">Officials</a></li>
+        <li><a href="services.html" class="nav-link m-0 p-2 text-center text-dark">Services</a></li>
+        <li><a href="login.html" class="nav-link m-0 p-2 text-center text-dark">Login</a></li>
+    
+    </ul>
+</div>
+
+<!--end-->
+
+<section>
+
+<div class="about_container p-5">
+
+<h5 class="title_text text-center mt-3">List of Ibabao Sityo</h5>
+
+
+<!--baranggay details-->
+<div class="row" style="margin-top:5rem;">
+
+<div class="col-lg-6 mb-3">
+<div class="card text-white bg-success mb-3" id="tumoy_details">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start baranggay_img" data-id="tumoy" alt="sitio_img">
+      <span class="btn">See More</span>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title sitio"></h5>
+        <p class="card-text description"></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-6 mb-3 animated">
+<div class="card text-white bg-success mb-3" id="sun_ok_details">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start baranggay_img" data-id="sun_ok" alt="sitio_img">
+      <span class="btn">See More</span>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title sitio"></h5>
+        <p class="card-text description"></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<div class="row" style="margin-top:2rem;">
+
+<div class="col-lg-6 mb-3 animated">
+<div class="card text-white bg-success mb-3" id="ylaya_details">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start baranggay_img" data-id="ylaya" alt="sitio_img">
+       <span class="btn">See More</span>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title sitio"></h5>
+        <p class="card-text description"></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-6 mb-3 animated">
+<div class="card text-white bg-success mb-3" id="centro_details">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start baranggay_img" data-id="centro" alt="sitio_img">
+       <span class="btn">See More</span>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title sitio"></h5>
+        <p class="card-text description"></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<div class="row" style="margin-top:2rem;">
+
+<div class="col-lg-6 mb-3 animated">
+<div class="card text-white bg-success mb-3" id="bliss_details">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start baranggay_img" data-id="bliss" alt="sitio_img">
+       <span class="btn">See More</span>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title sitio"></h5>
+        <p class="card-text description"></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-6 mb-3 animated">
+<div class="card text-white bg-success mb-3" id="panagdait_details">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start baranggay_img" data-id="panagdait" alt="sitio_img">
+       <span class="btn">See More</span>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title sitio"></h5>
+        <p class="card-text description"></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<div class="row" style="margin-top:2rem;">
+
+<div class="col-lg-6 mb-3 animated">
+<div class="card text-white bg-success mb-3" id="bangkal_details">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start baranggay_img" data-id="bangkal" alt="sitio_img">
+       <span class="btn">See More</span>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title sitio"></h5>
+        <p class="card-text description"></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--sitio modal-->
+<div class="modal fade" id="sitioModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-3">
+       <div class="text-center p-2">
+        <img src="" class="img-fluid" id="image">
+       </div>
+
+       <div class="row mt-3 mb-1">
+        <div class="col-lg-6 mb-1">
+          <span class="fw-bolder">Sityo: </span>
+          <small id="sitio" class="text-muted">Sitio Tumoy</small>
+       </div>
+       <div class="col-lg-6">
+         <span class="fw-bolder">Purok: </span>
+          <small id="purok" class="text-muted">Purok Makugihon</small>
+       </div>
+      </div>
+
+      <div class="row mt-1 mb-1">
+        <div class="col-lg-6 mb-1">
+          <span class="fw-bolder">Patron: </span>
+          <small id="patron" class="text-muted">Patron</small>
+       </div>
+       <div class="col-lg-6">
+         <span class="fw-bolder">Fiesta: </span>
+          <small id="fiesta" class="text-muted">Fiesta</small>
+       </div>
+      </div>
+
+       <div class="row mt-1 mb-1">
+        <div class="col-lg-6 mb-1">
+          <span class="fw-bolder">DH Leader: </span>
+          <small id="dh_leader" class="text-muted"></small>
+       </div>
+      </div>
+      <hr>
+      <div class="text-center mt-3">
+        <h3 class="fw-bolder"><i class="fa fa-map-marker fa-2x text-success"></i> &nbsp; PLACES</h3>
+
+        <div id="places_container" class="mt-5">
+
+        </div>
+      </div>
+
+
+
+      
+
+    </div>
+  </div>
+</div>
+<!--end-->
+
+
+
+</section>
+
+  <footer class="py-3 my-4 " style="background-color:#31906E;">
+    <p class="text-center">© 2023 For Educational Purpose only</p>
+    <p class="text-center">Not official website of Ibabao</p>
+    <p class="text-center">Made By Velez</p>
+  </footer>
+
+<div id="preloader"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="json/officials.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+<script>
+
+$(document).ready(function(){
+ 
+ let container=$('.about_container');
+ let data=sityo.details; let i=0;
+ let content=`<h5 class="title_text text-center mt-3">List of Ibabao Sityo</h5>`;
+ 
+ for(key in data)
+ {
+    let clss=$('#'+data[key].id+"_details");
+    clss.find('.baranggay_img').attr('src',data[key].baranggay_img);
+    clss.find('.sitio').empty().append(data[key].sitio);
+    clss.find('.description').empty().append(data[key].description);
+ }
+
+ 
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".animated").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+      
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+
+$('.baranggay_img').hover(function(event){
+     $(this).siblings().css({"color":"#FFFFFF"}).show();
+     $(this).css("filter","blur(5px)");
+});
+
+$('.baranggay_img').mouseleave(function(event){
+     $(this).siblings().css({"color":"transparent"}).hide();
+     $(this).css("filter","blur(0px)");
+});
+
+
+responsive()
+window.onresize=function(){
+  responsive();
+}
+
+//view sitio details
+$(document).on('click','.baranggay_img',function(event){
+  event.preventDefault();
+  let type=$(this).attr('data-id');
+  let places;
+  let gallery;
+ 
+  let modal=$('#sitioModal');
+  let image_con=$('#places_container');
+  image_con.empty();
+
+  let data=sityo.details;
+  for(key in data)
+  {
+    if(data[key].id==type)
+    {
+     modal.find('#image').attr('src',data[key].baranggay_img);
+     modal.find('#sitio').empty().append(data[key].sitio);
+     modal.find('#purok').empty().append(data[key].purok);
+     modal.find('#patron').empty().append(data[key].patron);
+     modal.find('#fiesta').empty().append(data[key].fiesta);
+     modal.find('#dh_leader').empty().append(data[key].dh_leader);
+     places=data[key].places.split(',');
+     gallery=data[key].gallery.split(',');
+    }
+  }
+
+
+   for(i=0; i<gallery.length; i++)
+   {
+     image_con.append(`
+        <div class="text-center mt-5">
+        <img src="assets/img/${gallery[i]}" class="img-fluid" alt="places">
+        </div><div class="text-center mb-5">
+        <small class="fw-bolder">${places[i]}</small>
+        </div>
+        `);
+   }
+
+modal.modal('show');
+   
+});
+
+
+</script>
+
+</body>
+</html>

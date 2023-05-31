@@ -1,0 +1,278 @@
+body{
+	min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color:#31906E;
+  overflow-x: hidden !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+	margin-top: auto;
+	text-align: center;
+  color: #ffff;
+  padding: 25px 0;
+}
+
+
+#navbar-example2
+{
+	background-color:#31906E;
+}
+
+.sticky{
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-brand img{
+  border-radius:50%;
+  height:55px;
+  width:60px;
+}
+
+.navbar-brand span{
+	color: #F8F8FF;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-left:13px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sticky + .container-fluid {
+  padding-top: 100px;
+}
+
+
+
+.nav-link{
+	color:#F8F8FF;
+	font-size: 18px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+#navbarMobile .nav-link{
+	font-size:16px;
+}
+
+.active-mobile{
+	color:#006400;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.nav-link:hover{
+	color:#000000;
+	font-weight: bolder;
+}
+
+.active-link{
+	color:#000000;
+	font-weight: bolder;
+	
+}
+
+.container-fluid{
+	background-color:#F8F8FF;
+	padding-top:10px;
+}
+
+.carousel{
+	width:100%;
+}
+
+.title_text{
+	font-family: Georgia, serif;
+	font-weight:bolder;
+	color:#000000;
+	text-transform: uppercase;
+	margin-top:5rem;
+}
+
+.pisition{
+	 color:#008000;
+	 font-size:16px;
+	 text-transform: uppercase;
+	 letter-spacing: 1px;
+}
+
+.text_container{
+	font-weight:15px;
+	color:#000000;
+	text-align-last: center;
+}
+
+hr{
+	background-color:#3A3B3C;
+	border:1px solid #3A3B3C;
+}
+
+.about_container
+{
+	background-color:#F8F8FF;
+	overflow-x: hidden !important;
+}
+
+.baranggayhall_container{
+	border-radius:15px;
+	background-color:#2E8B57;
+}
+
+.baranggay_img{
+	max-width:100%;
+	min-width:200px;
+	border-radius:15px;
+	max-height:35vh;
+	min-height:35vh;
+}
+
+
+
+.sitio_details{
+   font-size:18px;
+   padding:2px 5px 2px 2px;
+   color:#000000;
+   font-weight: bold;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul .sitio_details::before{
+	content: "\2022";  
+  color: #31906E; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-size:25px;
+}
+
+.modal-content{
+	background-color:#F5F5F5;
+	color: #000000;
+}
+
+.modal-content img{
+	border-radius:10px;
+	min-width:85%;
+	max-width:55%;
+	margin-bottom:15px;
+	box-shadow: 5px 6px 8px 6px #C0C0C0;
+	border: 2px solid #FFFFFF;
+
+}
+
+#galleryModal img{
+	max-width:100%;
+	min-width:100px;
+	max-height: 150vh;
+	min-height: 55vh;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px #aaaaaa;
+	border: 1px solid #BFBFBF;
+}
+
+#galleryModal .modal-content{
+  background-color:#FFFFFF;
+}
+
+#galleryModal .modal-body{
+	background-color:#FFFFFF;
+}
+
+.modal-content span{
+	font-size:18px;
+	font-weight: bolder;
+	color:#000000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left:3rem;
+}
+
+.modal-content small{
+	font-size:16px;
+	color:#000000;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left:10px;
+	text-align: justify;
+  text-justify: inter-word
+
+}
+
+/*------/ Prelaoder /------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background:#F5F5F5;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #A9A9A9;
+  border-top: 6px solid #008000;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.profile{
+	max-width:200px;
+	min-width:155px;
+	border-radius: 15px;
+	border: 5px solid #008000;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.percentage{
+	font-size: 30px}
+
+.testimonials{
+	height: auto;
+	border-top: 15px solid #008000;
+	border-bottom: 15px solid #808080;
+	border-radius:15px;
+	max-width:85%;
+
+ }
+
+ .officials_container:last-child{
+ 	margin-bottom:5rem;
+ }
+
+.officials_container{
+	text-align:center;
+
+}
+
+.officials_container p{
+	text-transform: capitalize;
+	color:#000000;
+	letter-spacing: 1px;
+}
+
